@@ -16,6 +16,7 @@ class my_own_player(part.Participant):
         # you can override this method in this sub-class
         # this method must contain 'self.initialize_params()' which is for initializing some essential variables
         # you can initialize what you define
+        print("A")
         self.initialize_params()
     # ====================================================================== for initializing your player every round
 
